@@ -1,0 +1,2 @@
+6 independent variables
+y = burnout score
