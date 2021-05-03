@@ -1,0 +1,71 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Burnrate quiz</title>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="/static/css/style.css" rel="stylesheet">
+</head>
+<body style="background-color: cornsilk; font-family:Cambria; font-size:larger">
+    <div class="login">
+        <h1 style="background-color: DodgerBlue; font-family: verdana; text-align: center;">Predict Your Burnout Rate</h1>
+        <h3 style=" background-color: lightblue">
+            Gender: The gender of the employee (male = 0/Female = 1)<br />
+            Company Type: The company category by (Service = 0, Product = 0)<br />
+            WFH Setup Available: Is the work from facility available for the employee(no = 0, yes = 1)<br />
+            Designation: The position an employee have in the organization(0.0, 5.0)bigger is higher designation.<br />
+            Resource Allocation:The amount of resource allocated to the employee work, number of hours(1.0, 10.0) higher means more resource <br />
+            Mental Fatigue Score:The level of fatigue mentally employee is facing(0.0, 10.0)
+
+        </h3>
+        <center><h3>Enter the following values to predict your burnout rate</h3></center>
+        <!--Main Input For Recieving Query to our ML-->
+        <center>
+            <form action="{{url_for('predict')}}" method="post">
+                <label for="Gender"><strong>Gender 0=man and 1= woman</strong></label><br />
+                <select name="Gender" id="Gender">
+                    <option value=""></option>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                </select>
+                <br><br>
+                <label for="Company"><strong>Your Company Catorgory 0=service and 1=product</strong></label><br />
+                <select name="Company" id="Company">
+                    <option value=""></option>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                </select>
+                <br><br>
+                <label for="WFH"><strong> Work For Home Resources 0=no and 1=yes</strong></label><br />
+                <select name="WFH" id="WFH">
+                    <option value=""></option>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                </select>
+                <br><br>
+                <label for="Designation"><strong>Designation: values between(0.0 to 5.0)</strong></label><br />
+                <input type="text" name="Designation" placeholder="Designation" required="required" /><br /><br />
+                <label for="Resource"><strong>Resource: values between (1.0, 10.0)</strong></label><br />
+                <input type="text" name="Resource" placeholder="Resource" required="required" /><br /><br />
+                <label for="Mental"><strong>Mental: values between (0.0, 10.0)</strong></label><br />
+                <input type="text" name="Mental" placeholder="Mental" required="required" /><br /><br />
+
+                <button type="submit" class="btn">Predict</button>
+
+            </form>
+        </center>
+        <br />
+        <br />
+        <center>  <strong>Burn Rate:</strong> The burn out rate should be between (0.0, 1.0) higher value the more burnout</center>
+        <br />
+        <br />
+        <center> {{ prediction_text }}</center>
+    </div>
+
+</body>
+</html>
