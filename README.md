@@ -1,7 +1,7 @@
 # Analysis and Prediction of Workplace Burnout
 
 ## Backstory
-It's no secret that in the United States of America, you must work in some way to support yourself and/or your loved ones. Some love their jobs while others despise them due to a number of reasons. One of the most common occurances is burnout, in which an idividual works so hard that they become overworked and cannot properly function to their best. This has become especially prominent in the times of the Corona Virus. We took a look at a dataset that provided infromation about employees including:
+It's no secret that in the United States of America, you must work in some way to support yourself and/or your loved ones. Some love their jobs while others despise them due to a number of reasons. One of the most common occurances is burnout, in which an idividual works so hard that they become overworked and cannot properly function to their best. This has become especially prominent in the times of the COVID-19. We took a look at a dataset that provided infromation about employees including:
 - Date of Joining Work
 - Gender
 - Company Type
@@ -14,7 +14,6 @@ It's no secret that in the United States of America, you must work in some way t
 Using this data, we were able to understand the contributing factors to employee burnout and build a prediction model.
 
 ## Data Analysis
-
 #### Gender Count 
 - This graph depicts the count of male and females that have participated in this dataset:
 - ![Screenshot](sharice/GenCoun.png)
@@ -76,3 +75,7 @@ Using this data, we were able to understand the contributing factors to employee
 #### User Input
 - ![Screenshot](images/07_user_input_ky.png)
 - We put together a loop that would take a user’s inputs and generate their Burn Rate.
+
+## User Prediction via Flask App
+- ![Screenshot](images/flask_app.png)
+- We were able to develop a flask app that will generate the users burnout rate after answering some key questions about their work experiance.
