@@ -14,26 +14,26 @@ It's no secret that in the United States of America, you must work in some way t
 Using this data, we were able to understand the contributing factors to employee burnout.
 
 ## Analysis
-### Gender Count:
+#### Gender Count:
 ![Screenshot](sharice/GenCoun.png)
 
-### Work From Home:
+#### Work From Home:
 ![Screenshot](sharice/WFH.png)
 
-### Company Type:
+#### Company Type:
 ![Screenshot](sharice/comp.png)
 
-### Mental Fatigue:
+#### Mental Fatigue:
 ![Screenshot](sharice/Mental.png)
 
-### Burn Rate:
+#### Burn Rate:
 ![Screenshot](sharice/Burn.png)
 
-### Linear Regression: Mental Fatigue Score vs Resource Allocation
-![Screenshot](sharice/Linear_ResvsMent.png)
+#### Linear Regression: Mental Fatigue Score vs Resource Allocation
+![Screenshot](Resources/Linear_ResvsMent1.png)
 
-### Linear Regression: Burn Rate vs Mental Fatigue Score
+#### Linear Regression: Burn Rate vs Mental Fatigue Score
 ![Screenshot](samori/Lin_Reg_Burn_v_Fatigue.png)
 
-### Linear Regreesion: Burn Rate vs Resource Allocation
+#### Linear Regreesion: Burn Rate vs Resource Allocation
 ![Screenshot](samori/Lin_Reg_Burn_v_Resource.png)
