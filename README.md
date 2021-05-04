@@ -18,22 +18,22 @@ Using this data, we were able to understand the contributing factors to employee
 ![Screenshot](sharice/GenCoun.png)
 
 ### Work From Home:
-![Screenshot](sharice/WFH)
+![Screenshot](sharice/WFH.png)
 
 ### Company Type:
-![Screenshot](sharice/comp)
+![Screenshot](sharice/comp.png)
 
 ### Mental Fatigue:
-![Screenshot](sharice/Mental)
+![Screenshot](sharice/Mental.png)
 
 ### Burn Rate:
-![Screenshot](sharice/Burn)
+![Screenshot](sharice/Burn.png)
 
 ### Linear Regression: Mental Fatigue Score vs Resource Allocation
-![Screenshot](sharice/Linear_ResvsMent)
+![Screenshot](sharice/Linear_ResvsMent.png)
 
 ### Linear Regression: Burn Rate vs Mental Fatigue Score
-![Screenshot](samori/Lin_Reg_Burn_v_Fatigue)
+![Screenshot](samori/Lin_Reg_Burn_v_Fatigue.png)
 
 ### Linear Regreesion: Burn Rate vs Resource Allocation
-![Screenshot](samori/Lin_Reg_Burn_v_Resource)
+![Screenshot](samori/Lin_Reg_Burn_v_Resource.png)
