@@ -15,9 +15,10 @@ Using this data, we were able to understand the contributing factors to employee
 
 ## Data Analysis
 
-#### Gender Count
-This graph depicts the count of male and females that have participated in this dataset:
+#### Gender Count 
+- This graph depicts the count of male and females that have participated in this dataset:
 - ![Screenshot](sharice/GenCoun.png)
+<br>
 
 #### Work From Home Setup
 - This bar chart shows how many employees are able to work from home:
