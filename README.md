@@ -77,5 +77,5 @@ Using this data, we were able to understand the contributing factors to employee
 - We put together a loop that would take a user’s inputs and generate their Burn Rate.
 
 ## User Prediction via Flask App
-- ![Screenshot](images/flask_app.png)
+- ![Screenshot](images/flask_app.PNG)
 - We were able to develop a flask app that will generate the users burnout rate after answering some key questions about their work experiance.
