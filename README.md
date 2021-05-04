@@ -16,25 +16,33 @@ Using this data, we were able to understand the contributing factors to employee
 ## Analysis
 
 ![Screenshot](sharice/GenCoun.png)
+
 This graph depicts the count of male and females that have participated in this dataset
 
 ![Screenshot](sharice/WFH.png)
+
 This bar chart shows how many employees are able to work from home
 
 ![Screenshot](sharice/comp.png)
+
 This bar chart counts the amount of employees who work in product vs service companies
 
 ![Screenshot](sharice/Mental.png)
+
 This chart showcase the range of employee Mental Fatigue
 
 ![Screenshot](sharice/Burn.png)
+
 This chart showcase the range of employee Mental Fatigue
 
 ![Screenshot](images/Linear_ResvsMent1.png)
+
 The chart is utlizing a linear regression model that compares mental fatigue to the amount of resources an employee has.
 
 ![Screenshot](samori/Lin_Reg_Burn_v_Fatigue.png)
+
 The chart is utlizing a linear regression model that compares the burn rate to the amount of resources an employee has.
 
 ![Screenshot](samori/Lin_Reg_Burn_v_Resource.png)
+
 The chart is utlizing a linear regression model that compares mental fatigue score to the burn rate of the employees.
