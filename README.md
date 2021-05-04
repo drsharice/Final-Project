@@ -30,7 +30,7 @@ Using this data, we were able to understand the contributing factors to employee
 ![Screenshot](sharice/Burn.png)
 
 #### Linear Regression: Mental Fatigue Score vs Resource Allocation
-![Screenshot](Resources/Linear_ResvsMent1.png)
+![Screenshot](images/Linear_ResvsMent1.png)
 
 #### Linear Regression: Burn Rate vs Mental Fatigue Score
 ![Screenshot](samori/Lin_Reg_Burn_v_Fatigue.png)
