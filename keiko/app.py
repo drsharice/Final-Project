@@ -10,7 +10,7 @@ model = pickle.load(open('linear_regression_model.pkl', 'rb'))
 #default page of our web-app
 @app.route('/')
 def home():
-    return render_template('home.html')
+    return render_template('quiz_ky.html')
 
 #To use the predict button in our web-app
 @app.route('/predict',methods=['POST'])
@@ -21,7 +21,7 @@ def predict():
     final_features = [np.array(int_features)]
     prediction = model.predict(final_features)
     output = round(prediction[0], 2) 
-    return render_template('home.html', prediction_text='Burnrate for employees is :{}'.format(output))
+    return render_template('quiz_ky.html', prediction_text='Burnrate for employees is :{}'.format(output))
 
 if __name__ == "__main__":
     app.run(debug=True)
